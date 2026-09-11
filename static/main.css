@@ -43,8 +43,12 @@ main img {
     margin: 30px auto;
 }
 
+.itch {
+    width: 554px;
+}
+
 main p {
-    margin: 30px auto;
+    margin: 30px 60px;
 }
 
 a {
@@ -105,7 +109,7 @@ footer {
     }
 
     main p {
-        padding: 0px 50px;
+        margin: 30px 50px;
     }
 
     .dev_profile p {
@@ -122,5 +126,11 @@ footer {
 
     footer {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .itch {
+        width: 210px;
     }
 }
